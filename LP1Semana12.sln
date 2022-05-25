@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowManyOfThisType", "HowMan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheyCameBefore", "TheyCameBefore\TheyCameBefore.csproj", "{D928AC1C-DD2C-4005-AAD8-21435C373611}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteStuff1", "WriteStuff1\WriteStuff1.csproj", "{F2D854DA-FC4D-4968-8C8D-63D8D9705918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{D928AC1C-DD2C-4005-AAD8-21435C373611}.Release|x64.Build.0 = Release|Any CPU
 		{D928AC1C-DD2C-4005-AAD8-21435C373611}.Release|x86.ActiveCfg = Release|Any CPU
 		{D928AC1C-DD2C-4005-AAD8-21435C373611}.Release|x86.Build.0 = Release|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Debug|x64.Build.0 = Debug|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Release|x64.ActiveCfg = Release|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Release|x64.Build.0 = Release|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2D854DA-FC4D-4968-8C8D-63D8D9705918}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
