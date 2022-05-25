@@ -1,30 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace WriteStuff1
 {
     class Program
     {
+        private static string filePath = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
+            "Test",
+            "input.txt");
+
         static void Main(string[] args)
         {
             string input;
 
             Queue<string> strings = new Queue<string>();
 
+            Console.WriteLine("Write lines of text to add to a new file.");
+            Console.WriteLine("When done, leave an empty line to exit program.");
+
+            Console.WriteLine();
+
             do
             {
                 input = " ";
 
+                Console.Write("> ");
+
                 input = Console.ReadLine();
 
-                strings.Enqueue(input);
+                if (input != "")
+                    strings.Enqueue(input);
             }
             while (input != "");
 
-            foreach(string s in strings)
-            {
-                Console.WriteLine(s);
-            }
+            File.WriteAllLines(filePath, strings);
         }
     }
 }
