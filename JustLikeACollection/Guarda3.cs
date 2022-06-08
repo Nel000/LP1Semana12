@@ -27,14 +27,18 @@ namespace JustLikeACollection
 
         public void Add(T item)
         {
-            bool itemAdded;
+            bool itemAdded = false;
 
             for (int i = 0; i < val.Length; i++)
-                if (val[i] != default && !itemAdded)
+            {
+                if (EqualityComparer<T>.Default.Equals(val[i], default)
+                    && !itemAdded)
                 {
                     val[i] = item;
                     itemAdded = true;
                 }
+
+            }
         }
 
         public T GetItem(int i)
