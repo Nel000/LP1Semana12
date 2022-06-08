@@ -7,13 +7,12 @@ namespace MyGenericClass
 {
     public class Guarda3<T>
     {
-        private T[] val = new T[] {val1, val2, val3};
+        private T[] val = new T[3];
 
         public Guarda3()
         {
-            val1 = default;
-            val2 = default;
-            val3 = default;
+            for (int i = 0; i < val.Length; i++)
+                val[i] = default;
         }
 
         public T GetItem(int i)
